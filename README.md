@@ -3,5 +3,5 @@
 -----------------
 ### OneHot-시각화  
 캘리포니아 행정 구역 내 주택 가격 데이터  
-**<h3>numeric** 변수</h3>-> level1,2,3로 categorical 진행 컬럼을 추가하여 0 or 1 기록하기  
+**numeric** 변수-> level1,2,3로 categorical 진행 컬럼을 추가하여 0 or 1 기록하기  
 +scatter plot
