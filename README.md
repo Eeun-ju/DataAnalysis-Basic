@@ -7,4 +7,5 @@
 +scatter plot  
 ### Groupby-multiple columns  
 Facker() 이용한 데이터 생성(의미 없는 데이터)  
-groupby()를 이용하여 데이터를 정렬하고 unstack()과 비교해본다.
+groupby()를 이용하여 데이터를 정렬하고 unstack()과 비교해본다.  
+참고자료 :  https://github.com/scentellegher/code_snippets/blob/master/pandas_groupby_unstack/Plot_groupby_multiple_columns_unstack.ipynb
