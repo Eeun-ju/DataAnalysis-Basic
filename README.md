@@ -17,3 +17,8 @@
 + multi-index 순서 변경 swaplevel  
 <h6> 참고자료 : https://data-make.tistory.com/126?category=317622
 
+### [SOM](som예제.R)  
++ SOM(Self-Organizing Map) 차원 축소를 이용한 클러스터링 기법이다. n차원 입력벡터에서 주로 시각화 가능한 2-3차원으로 축소를 진행한다. 
++ **python somlearn을 사용했으나 NameError : wrap_train 발생으로 해결 후 업데이트 예정이다.**
++ Series에서 변수 count 가능하다. (series.value_count())  
+<h6> 참고자료 : https://m.blog.naver.com/PostView.nhn?blogId=plasticcode&logNo=221514486602&proxyReferer=https:%2F%2Fwww.google.com%2F
