@@ -22,3 +22,7 @@
 + **python somlearn을 사용했으나 NameError : wrap_train 발생으로 해결 후 업데이트 예정이다.**
 + Series에서 변수 count 가능하다. (series.value_count())  
 <h6> 참고자료 : https://m.blog.naver.com/PostView.nhn?blogId=plasticcode&logNo=221514486602&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+### [분류,시각화](분류,시각화.ipynb)  
++ 시간 데이터 시각화, 머신러닝 기법을 이용한 분류문제  
++ **XGboost 기법 알고리즘 공부**
