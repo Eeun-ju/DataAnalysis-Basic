@@ -28,7 +28,15 @@
 + **XGboost 기법 알고리즘 공부**
   
 ### [tSNE](tSNE.ipynb)  
-+ 선형변환을 이용한 PCA(Principal Component analysis)는 비선형 특성을 가진 데이터에 대해서는 데이터의 특성을 잘 추출하지 못하는 한계가 있다. 데이터의 비선형적 특성을 고려하기 위해 SNE,LLE, 등이 제안되었는데 tSNE는 그 중 하나이다.
++ t-Stochastic Nearest Neighbor 는 vetor visualization을 위해 자주 사용되는 알고리즘이다. 선형변환을 이용한 PCA(Principal Component analysis)는 비선형 특성을 가진 데이터에 대해서는 데이터의 특성을 잘 추출하지 못하는 한계가 있다. 데이터의 비선형적 특성을 고려하기 위해 SNE,LLE, 등이 제안되었는데 tSNE는 그 중 하나이다.
 + **T분포를 이용하며 친밀도가 가까운 값끼리 클러스터링된다.**
 + PCA처럼 군집이 중복되지 않는 장점은 있지만 매 계산마다 축의 위치가 바뀌어서, 다른 모양으로 나타날 수 있다.  
 <h6> 참고자료 : https://agiantmind.tistory.com/215
+
+### [PLS](PLS.ipynb)  
++ Partial Least Squares(부분 최소 제곱법)은 종속변수 Y와의 공분산이 높은 k개의 선형조합 변수를 추출하는 방식이다. 회귀, 분류 모델로 사용되며 데이터 차원을 축소 시킬 때 주로 쓰인다. PCA(Principal Component analysis)는 선형 특성을최대화 하는 축을 찾지만 PLS는 이와 더불어 상관관계를 최대화 하도록 축을 찾는다. (즉, X선형결합-Y 상관관계, X선형결합의분산을 최대) 
++ 첫 번째 t1 변수를 추출하고 t1이 설명하지 못하는 부분만을 고려하기 위해 t1이 설명하는 X,y 부분을 제외하여 t2를 추출한다. **k번 반복**
++ k를 순차적으로 증가시키며 예측 결과를 확인하고, 가장 좋은 예측 결과를 보이는 k를 선택한다. MSE 값이 가장 작을 때  
++ IF Y가 여러 개일 때? -> 하나의 모델로 여러 개의 Y 예측 가능
++ IF Y가 범주형일 때? -> PLS-DA(PLS-Discriminant Analysis)
+<h6> 참고자료 : https://dive-into-ds.tistory.com/33
