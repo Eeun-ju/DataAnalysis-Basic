@@ -41,4 +41,10 @@ Machine Learning - Algorithm
 + k를 순차적으로 증가시키며 예측 결과를 확인하고, 가장 좋은 예측 결과를 보이는 k를 선택한다. MSE 값이 가장 작을 때  
 + IF Y가 여러 개일 때? -> 하나의 모델로 여러 개의 Y 예측 가능
 + IF Y가 범주형일 때? -> PLS-DA(PLS-Discriminant Analysis)
-<h6> 참고자료 : https://dive-into-ds.tistory.com/33
+<h6> 참고자료 : https://lsjsj92.tistory.com/547
+
+### [XGBoost](XGBoost.ipynb)  
++ Gradient Boosting 방법 중 한 가지이다. 트리를 기본 구조로 Gain을 최대화한다. 뛰어난 예측 성능을 보여주고 과적합을 방지하는 장점이 있다. 
++ 초기 분기에서 Gain을 최대화하는 분기를 찾는다. 리프 노드에 대해 과정을 재귀적으로 반복한다. **파라미터를 이용해 개수, 깊이, 반복횟수 제한이 가능하다**
++ 암분류 데이터를 XGB를 이용하여 분류해보고, 조기종료, 파리미터 조정을 해보자  
+<h6> 참고자료 : https://dive-into-ds.tistory.com/33 https://dining-developer.tistory.com/3
