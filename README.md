@@ -15,17 +15,19 @@
 + 특정 컬럼을 index로 바꾸기 -> set_index(컬럼명)
 + multi-index xs 접근하기
 + multi-index 순서 변경 swaplevel  
-<h6> 참고자료 : https://data-make.tistory.com/126?category=317622
-
+<h6> 참고자료 : https://data-make.tistory.com/126?category=317622 <br>
+  
+### [분류,시각화](분류,시각화.ipynb)  
++ 시간 데이터 시각화, 머신러닝 기법을 이용한 분류문제  
++ **XGboost 기법 알고리즘 공부**
+  
+Machine Learning - Algorithm
+-----------------
 ### [SOM](som예제.R)  
 + SOM(Self-Organizing Map) 차원 축소를 이용한 클러스터링 기법이다. n차원 입력벡터에서 주로 시각화 가능한 2-3차원으로 축소를 진행한다. 
 + **python somlearn을 사용했으나 NameError : wrap_train 발생으로 해결 후 업데이트 예정이다.**
 + Series에서 변수 count 가능하다. (series.value_count())  
 <h6> 참고자료 : https://m.blog.naver.com/PostView.nhn?blogId=plasticcode&logNo=221514486602&proxyReferer=https:%2F%2Fwww.google.com%2F
-
-### [분류,시각화](분류,시각화.ipynb)  
-+ 시간 데이터 시각화, 머신러닝 기법을 이용한 분류문제  
-+ **XGboost 기법 알고리즘 공부**
   
 ### [tSNE](tSNE.ipynb)  
 + t-Stochastic Nearest Neighbor 는 vetor visualization을 위해 자주 사용되는 알고리즘이다. 선형변환을 이용한 PCA(Principal Component analysis)는 비선형 특성을 가진 데이터에 대해서는 데이터의 특성을 잘 추출하지 못하는 한계가 있다. 데이터의 비선형적 특성을 고려하기 위해 SNE,LLE, 등이 제안되었는데 tSNE는 그 중 하나이다.
