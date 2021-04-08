@@ -1,4 +1,5 @@
-# DataAnalysis-Basic
+# DataAnalysis-Basic  
+
 분석 코딩 테스트 대비 파이썬 모듈 익히기
 -----------------
 ### [OneHot-시각화](OneHot-시각화.ipynb)  
@@ -47,4 +48,10 @@ Machine Learning - Algorithm
 + Gradient Boosting 방법 중 한 가지이다. 트리를 기본 구조로 Gain을 최대화한다. 뛰어난 예측 성능을 보여주고 과적합을 방지하는 장점이 있다. 
 + 초기 분기에서 Gain을 최대화하는 분기를 찾는다. 리프 노드에 대해 과정을 재귀적으로 반복한다. **파라미터를 이용해 개수, 깊이, 반복횟수 제한이 가능하다**
 + 암분류 데이터를 XGB를 이용하여 분류해보고, 조기종료, 파리미터 조정을 해보자  
-<h6> 참고자료 : https://dive-into-ds.tistory.com/33 https://dining-developer.tistory.com/3
+<h6> 참고자료 : https://dive-into-ds.tistory.com/33 https://dining-developer.tistory.com/3  
+  
+ ### [ElasticNet](ElasticNet예제.R)  
++ Lasso, Ridge 에서의 L1, L2 norm이 모두 사용되는 모델이다. 두 모델의 장점을 가지고 있기 때문에 변수의 수도 줄이고 variance도 줄이고 싶을 때 사용한다. 큰 데이터 셋에서 잘 작동하는 모델이다. 
++ 실제로 영향을 주는 변수를 A라고 하자. A와 연관이 있는 변수 B가 있는 경우 통계적으로 B도 영향을 주는 것처럼 보일 수 있다. Ridge 경우 계수를 전체적으로 줄이기 때문에 변수 선택이 안될 것이고, Lasso도 비슷하게 영향을 주지 않는 B가 남고 A 영향이 없어질 수 있다. 이러한 경우 ElasticNet을 사용한다. **L1, L2 가중치를 조절하여 lasso, ridge를 모두 동작할 수 있다.**
++ 전립선암 데이터를 이용하여 예측해보자 
+<h6> 참고자료 : https://soobarkbar.tistory.com/30 https://analysisbugs.tistory.com/199
