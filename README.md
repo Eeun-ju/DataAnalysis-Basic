@@ -55,3 +55,8 @@ Machine Learning - Algorithm
 + 실제로 영향을 주는 변수를 A라고 하자. A와 연관이 있는 변수 B가 있는 경우 통계적으로 B도 영향을 주는 것처럼 보일 수 있다. Ridge 경우 계수를 전체적으로 줄이기 때문에 변수 선택이 안될 것이고, Lasso도 비슷하게 영향을 주지 않는 B가 남고 A 영향이 없어질 수 있다. 이러한 경우 ElasticNet을 사용한다. **L1, L2 가중치를 조절하여 lasso, ridge를 모두 동작할 수 있다.**
 + 전립선암 데이터를 이용하여 예측해보자 
 <h6> 참고자료 : https://soobarkbar.tistory.com/30 https://analysisbugs.tistory.com/199
+
+ ### [RandomForest](Simple_R_code/iris_RF_분석.R)  
++ 의사결정나무의 특징인 분산이 크다는 점을 고려하여 bagging과 boosting보다 더 많은 무작위성을 주어 약한 학습기들을 생성한 후 이를 선형 결합하여 최종 학습기를 만드는 방법이다. 
++ 분석용 데이터로부터 N개의 bootstrap 데이터를 추출하고 N개의 분류기를 훈련한 후 대표 변수 샘플을 도출한다. 이 샘플을 트리의 leaf node로 분류하고 leaf node들의 선형 결합으로 최종 모델이 결정된다. **이론적 설명이나 해석이 어렵지만, 예측력은 매우 높다.**
++ iris 데이터를 이용하여 예측해보자 
