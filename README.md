@@ -1,7 +1,7 @@
 # DataAnalysis-Basic  
 
-1. 분석 코딩 테스트 대비 파이썬 모듈 익히기
------------------
+## 1. 분석 코딩 테스트 대비 파이썬 모듈 익히기
+
 ### [OneHot-시각화](OneHot-시각화.ipynb)  
 캘리포니아 행정 구역 내 주택 가격 데이터  
 + **numeric** 변수-> level1,2,3로 categorical 진행 컬럼을 추가하여 0 or 1 기록하기  
@@ -22,8 +22,8 @@
 + 시간 데이터 시각화, 머신러닝 기법을 이용한 분류문제  
 + **XGboost 기법 알고리즘 공부**
   
-2. Machine Learning - Algorithm using Python
------------------
+## 2. Machine Learning - Algorithm using Python
+
 ### [SOM](som예제.R)  
 + SOM(Self-Organizing Map) 차원 축소를 이용한 클러스터링 기법이다. n차원 입력벡터에서 주로 시각화 가능한 2-3차원으로 축소를 진행한다. 
 + **python somlearn을 사용했으나 NameError : wrap_train 발생으로 해결 후 업데이트 예정이다.**
@@ -50,7 +50,7 @@
 + 암분류 데이터를 XGB를 이용하여 분류해보고, 조기종료, 파리미터 조정을 해보자  
 <h6> 참고자료 : https://dive-into-ds.tistory.com/33 https://dining-developer.tistory.com/3  
 
-3. Machine Learning - Algorithm using R
+## 3. Machine Learning - Algorithm using R
 
  ### [ElasticNet](ElasticNet예제.R)  
 + Lasso, Ridge 에서의 L1, L2 norm이 모두 사용되는 모델이다. 두 모델의 장점을 가지고 있기 때문에 변수의 수도 줄이고 variance도 줄이고 싶을 때 사용한다. 큰 데이터 셋에서 잘 작동하는 모델이다. 
