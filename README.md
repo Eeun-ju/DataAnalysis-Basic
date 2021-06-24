@@ -49,6 +49,11 @@
 + 초기 분기에서 Gain을 최대화하는 분기를 찾는다. 리프 노드에 대해 과정을 재귀적으로 반복한다. **파라미터를 이용해 개수, 깊이, 반복횟수 제한이 가능하다**
 + 암분류 데이터를 XGB를 이용하여 분류해보고, 조기종료, 파리미터 조정을 해보자  
 <h6> 참고자료 : https://dive-into-ds.tistory.com/33 https://dining-developer.tistory.com/3  
+  
+### [구현CNN](구현_CNN(result).ipynb)  
++ CNN(Convolutional Neural Network) 
++ FClayer, Softmax, Relu, Cross Entropy,Conv, MaxPooling 일부를 구현하자.
++ Mnist 데이터를 이용하여 학습을 진행하고 학습전,후 이미지 형태를 비교한다.   
 
 ## 3. Machine Learning - Algorithm using R
 
