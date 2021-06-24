@@ -53,7 +53,12 @@
 ### [구현CNN](구현_CNN(result).ipynb)  
 + CNN(Convolutional Neural Network) 
 + FClayer, Softmax, Relu, Cross Entropy,Conv, MaxPooling 일부를 구현하자.
-+ Mnist 데이터를 이용하여 학습을 진행하고 학습전,후 이미지 형태를 비교한다.   
++ Mnist 데이터를 이용하여 학습을 진행하고 학습전,후 이미지 형태를 비교한다.  
+  
+### [구현 NN](구현_NN.ipynb)  
++ MNIST_784 분류하기
++ FClayer, Softmax, Relu, Cross Entropy 일부를 구현하자.
++ 최소한 85% 이상의 test acc가 나올 수 있도록 학습  
 
 ## 3. Machine Learning - Algorithm using R
 
